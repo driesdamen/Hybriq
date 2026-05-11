@@ -9,7 +9,7 @@ interface AreaRisk {
 
 function asymmetry(left: number, right: number): number {
   const max = Math.max(left, right);
-  if (max === 0) return 0;
+  if (max === 0) return 0;  
   return Math.abs(left - right) / max;
 }
 
