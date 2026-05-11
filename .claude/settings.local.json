@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem *)",
+      "Read(//usr/local/**)",
+      "Read(//c/Users/dries/.nvm/versions/**)",
+      "PowerShell(winget install *)",
+      "PowerShell(npm install *)"
+    ]
+  }
+}
